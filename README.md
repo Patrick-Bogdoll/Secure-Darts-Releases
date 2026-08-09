@@ -2,19 +2,19 @@
 
 Hier liegen die veroeffentlichten Installer des **Secure-Darts Trackers**. Kein Quelltext - nur die fertigen Dateien unter [Releases](../../releases).
 
-Die Anwendung selbst laeuft unter **[secure-darts.com](https://secure-darts.com)**.
+Die Anwendung selbst läuft unter **[secure-darts.com](https://secure-darts.com)**.
 
 ## Was ist der Tracker?
 
-Ein kleines Programm fuer Windows, das ueber Kameras erkennt, wohin deine Darts treffen, und das Ergebnis an die Web-App weitergibt. Es laeuft vollstaendig auf deinem eigenen Rechner: Die Kamerabilder verlassen ihn nicht, und die Verbindung zur Web-App geht ueber 127.0.0.1 - also gar nicht erst ins Netz.
+Ein kleines Programm für Windows, das über Kameras erkennt, wohin deine Darts treffen, und das Ergebnis an die Web-App weitergibt. Es läuft vollstaendig auf deinem eigenen Rechner: Die Kamerabilder verlassen ihn nicht, und die Verbindung zur Web-App geht über 127.0.0.1 - also gar nicht erst ins Netz.
 
 ## Installation
 
 Unter [Releases](../../releases) die neueste Setup-Datei herunterladen und starten.
 
-Windows meldet sich dabei mit "Der Computer wurde durch Windows geschuetzt", weil die Datei noch nicht signiert ist. Ueber *Weitere Informationen* und *Trotzdem ausfuehren* geht es weiter. Wer sichergehen will, vergleicht vorher die SHA-256-Pruefsumme, die bei jedem Release steht: `certutil -hashfile <datei> SHA256`
+Windows meldet sich dabei mit "Der Computer wurde durch Windows geschützt", weil die Datei noch nicht signiert ist. Über *Weitere Informationen* und *Trotzdem ausführen* geht es weiter. Wer sichergehen will, vergleicht vorher die SHA-256-Prüfsumme, die bei jedem Release steht: `certutil -hashfile <datei> SHA256`
 
-Beim ersten Start oeffnet sich die Einrichtung - Kameras suchen, zuordnen, Board erkennen. Danach startet der Tracker von selbst. Dann secure-darts.com oeffnen; die Verbindung stellt sich allein her.
+Beim ersten Start öffnet sich die Einrichtung - Kameras suchen, zuordnen, Board erkennen. Danach startet der Tracker von selbst. Dann secure-darts.com öffnen; die Verbindung stellt sich allein her.
 
 ## Voraussetzungen
 
@@ -24,8 +24,8 @@ Wichtig: Unter *Einstellungen &rarr; Datenschutz &rarr; Kamera* muss "Desktop-Ap
 
 ## Updates
 
-Laeuft der Tracker und du oeffnest secure-darts.com, meldet die Seite eine neue Fassung, sobald es eine gibt. Der neue Installer wird einfach ueber den alten ausgefuehrt. **Kamerazuordnung und Kalibrierung bleiben erhalten** - neu einrichten musst du nicht.
+Läuft der Tracker und du öffnest secure-darts.com, meldet die Seite eine neue Fassung, sobald es eine gibt. Der neue Installer wird einfach über den alten ausgeführt. **Kamerazuordnung und Kalibrierung bleiben erhalten** - neu einrichten musst du nicht.
 
 ## Fehler gefunden?
 
-Der Tracker ist in einer fruehen Alpha. Rueckmeldungen gern ueber das Kontaktformular auf secure-darts.com.
+Der Tracker ist in einer frühen Alpha. Rückmeldungen gern über das Kontaktformular auf secure-darts.com.
